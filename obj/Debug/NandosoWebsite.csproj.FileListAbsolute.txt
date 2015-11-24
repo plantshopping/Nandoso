@@ -25,3 +25,12 @@ d:\users\amy\visual studio 2015\Projects\NandosoWebsite\NandosoWebsite\bin\Syste
 d:\users\amy\visual studio 2015\Projects\NandosoWebsite\NandosoWebsite\bin\System.Web.Http.WebHost.xml
 d:\users\amy\visual studio 2015\Projects\NandosoWebsite\NandosoWebsite\obj\Debug\NandosoWebsite.dll
 d:\users\amy\visual studio 2015\Projects\NandosoWebsite\NandosoWebsite\obj\Debug\NandosoWebsite.pdb
+d:\users\amy\visual studio 2015\Projects\NandosoWebsite\NandosoWebsite\bin\EntityFramework.dll
+d:\users\amy\visual studio 2015\Projects\NandosoWebsite\NandosoWebsite\bin\EntityFramework.SqlServer.dll
+d:\users\amy\visual studio 2015\Projects\NandosoWebsite\NandosoWebsite\bin\EntityFramework.xml
+d:\users\amy\visual studio 2015\Projects\NandosoWebsite\NandosoWebsite\bin\EntityFramework.SqlServer.xml
+d:\users\amy\visual studio 2015\Projects\NandosoWebsite\NandosoWebsite\bin\Microsoft.Web.Infrastructure.dll
+d:\users\amy\visual studio 2015\Projects\NandosoWebsite\NandosoWebsite\bin\WebActivator.dll
+d:\users\amy\visual studio 2015\Projects\NandosoWebsite\NandosoWebsite\bin\Swashbuckle.Core.dll
+d:\users\amy\visual studio 2015\Projects\NandosoWebsite\NandosoWebsite\bin\WebActivatorEx.dll
+d:\users\amy\visual studio 2015\Projects\NandosoWebsite\NandosoWebsite\obj\Debug\NandosoWebsite.csprojResolveAssemblyReference.cache

@@ -14,8 +14,8 @@
 
 
 #navmenu ul {
-    list-style-type: none;
-    margin-left: 30%;
+    list-style-type: none; /*get rid of bullet points for the navigation menu*/
+    margin-left: 30%; /*position it to be below the header*/
     margin-top: 15%;
     padding: 10%;
     text-align: center;
@@ -26,4 +26,9 @@
     float: left;
     padding: 5px 20px 5px 20px;
 
+}
+
+h1 {
+  font-family: Bodoni MT;
+  font-weight: bold;
 }

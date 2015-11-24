@@ -1,10 +1,50 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
+    <link href="StyleSheet.css" rel="stylesheet" />
+     <link rel="icon" type="image/png" href="favicon.png" sizes="16x16">
     <title>Feedback - Nandoso</title>
 	<meta charset="utf-8" />
+    <style type="text/css">
+        .auto-style1 {
+            text-align: center;
+            color: #FF0000;
+        }
+    </style>
 </head>
 <body>
+
+    <div id="header">
+
+        <p><a href="/"><img alt="Nandoso Logo" class="imageContainer" src="NandosoLogo2.png" /></a></p>
+    </div>
+
+    <div id="navmenu">
+        <ul>
+            <li><a href="/specials.html"><img src="SpecialsLogo2100.png" /></a></li>
+            <li><a href="/feedback.html"><img src="FeedbackLogo100.png" /></a></li>
+        </ul>
+    </div>
+
+    <section>
+        <h1 class="auto-style1"><em>FEEDBACK</em></h1>
+    </section>
+
+    <div id="comments">
+        <form method='post'>
+  Name: <input type='text' name='name' id='name' /><br />
+
+  Email: <input type='text' name='email' id='email' /><br />
+
+  Comment:<br />
+  <textarea name='comment' id='comment'></textarea><br />
+
+  <input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' />
+
+  <input type='submit' value='Submit' />  
+</form>
+
+    </div>
 
 </body>
 </html>
