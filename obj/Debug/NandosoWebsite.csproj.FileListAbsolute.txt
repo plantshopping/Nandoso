@@ -38,3 +38,8 @@ d:\users\amy\visual studio 2015\Projects\NandosoWebsite\NandosoWebsite\bin\MySql
 d:\users\amy\visual studio 2015\Projects\NandosoWebsite\NandosoWebsite\bin\System.Web.Cors.dll
 d:\users\amy\visual studio 2015\Projects\NandosoWebsite\NandosoWebsite\bin\System.Web.Http.Cors.dll
 d:\users\amy\visual studio 2015\Projects\NandosoWebsite\NandosoWebsite\bin\System.Web.Http.Cors.xml
+D:\Users\Amy\Visual Studio 2015\Projects\NandosoWebsite\NandosoWebsite\bin\SqlServerTypes\x64\msvcr100.dll
+D:\Users\Amy\Visual Studio 2015\Projects\NandosoWebsite\NandosoWebsite\bin\SqlServerTypes\x64\SqlServerSpatial110.dll
+D:\Users\Amy\Visual Studio 2015\Projects\NandosoWebsite\NandosoWebsite\bin\SqlServerTypes\x86\msvcr100.dll
+D:\Users\Amy\Visual Studio 2015\Projects\NandosoWebsite\NandosoWebsite\bin\SqlServerTypes\x86\SqlServerSpatial110.dll
+D:\Users\Amy\Visual Studio 2015\Projects\NandosoWebsite\NandosoWebsite\bin\Microsoft.SqlServer.Types.dll

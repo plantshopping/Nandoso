@@ -38,6 +38,8 @@ h1 {
 }
 
 h2 {
-    font-size: 11px;
-    text-align:center;
+    font-size: 13px;
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Times New Roman';
 }

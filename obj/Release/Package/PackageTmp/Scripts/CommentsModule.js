@@ -1,12 +1,12 @@
 ﻿var CommentsModule = (function () {
+
     // Return anything that you want to expose outside the closure
     return {
         getComments: function (callback) {
-
             $.ajax({
                 type: "GET",
                 dataType: "json",
-                url: "http://nandosorestuarants.azurewebsites.net/api/Comments",
+                url: "https://nandosorestuarants.azurewebsites.net/api/Comments",
                 success: function (data) {
                     callback(data);
                 }
@@ -34,7 +34,7 @@ function postComment() {
             Feedback: comment.value,
             CommentDate: date.toLocaleString()
         },
-        url: "http://nandosorestuarants.azurewebsites.net/api/Comments",
+        url: "https://nandosorestuarants.azurewebsites.net/api/Comments",
         error: function () {
             console.log("POST FAILED");
         }
