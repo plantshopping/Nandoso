@@ -33,4 +33,8 @@ d:\users\amy\visual studio 2015\Projects\NandosoWebsite\NandosoWebsite\bin\Micro
 d:\users\amy\visual studio 2015\Projects\NandosoWebsite\NandosoWebsite\bin\WebActivator.dll
 d:\users\amy\visual studio 2015\Projects\NandosoWebsite\NandosoWebsite\bin\Swashbuckle.Core.dll
 d:\users\amy\visual studio 2015\Projects\NandosoWebsite\NandosoWebsite\bin\WebActivatorEx.dll
-d:\users\amy\visual studio 2015\Projects\NandosoWebsite\NandosoWebsite\obj\Debug\NandosoWebsite.csprojResolveAssemblyReference.cache
+d:\users\amy\visual studio 2015\Projects\NandosoWebsite\NandosoWebsite\bin\MySql.Data.dll
+d:\users\amy\visual studio 2015\Projects\NandosoWebsite\NandosoWebsite\bin\MySql.Data.Entity.EF6.dll
+d:\users\amy\visual studio 2015\Projects\NandosoWebsite\NandosoWebsite\bin\System.Web.Cors.dll
+d:\users\amy\visual studio 2015\Projects\NandosoWebsite\NandosoWebsite\bin\System.Web.Http.Cors.dll
+d:\users\amy\visual studio 2015\Projects\NandosoWebsite\NandosoWebsite\bin\System.Web.Http.Cors.xml

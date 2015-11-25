@@ -2,15 +2,15 @@
 /**
     Center the logo
 */
-.imageContainer{
-        position: absolute;
-        width: 745px; /*the image width*/
-        height: 330px; /*the image height*/
-        left: 50%;
-        top: 30%;
-        margin-left: -372px; /*half the image width*/
-        margin-top: -165px; /*half the image height*/
-    }
+.imageContainer {
+    position: absolute;
+    width: 745px; /*the image width*/
+    height: 330px; /*the image height*/
+    left: 50%;
+    top: 30%;
+    margin-left: -372px; /*half the image width*/
+    margin-top: -165px; /*half the image height*/
+}
 
 
 #navmenu ul {
@@ -22,13 +22,22 @@
 }
 
 #navmenu li {
-    
     float: left;
     padding: 5px 20px 5px 20px;
-
 }
 
+
 h1 {
-  font-family: Bodoni MT;
-  font-weight: bold;
+    font-size: 32px;
+    line-height: 44px;
+    font-family: 'Bodoni MT';
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    font-variant: normal;
+}
+
+h2 {
+    font-size: 11px;
+    text-align:center;
 }

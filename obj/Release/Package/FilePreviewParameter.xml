@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="NandosoRestuarants" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\Users\\Amy\\Visual\ Studio\ 2015\\Projects\\NandosoWebsite\\NandosoWebsite\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^D:\\Users\\Amy\\Visual\ Studio\ 2015\\Projects\\NandosoWebsite\\NandosoWebsite\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="NandosoWebsiteContext-Web.config Connection String" description="" value="Database=NandosoComments;Data Source=br-cdbr-azure-south-a.cloudapp.net;User Id=beee9c122a7d06;Password=3ae9f2d3" tags="">
+    <parameterEntry kind="XmlFile" scope="D:\\Users\\Amy\\Visual\ Studio\ 2015\\Projects\\NandosoWebsite\\NandosoWebsite\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='NandosoWebsiteContext']/@connectionString" />
+  </parameter>
+</parameters>
