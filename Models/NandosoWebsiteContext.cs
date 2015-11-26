@@ -29,24 +29,13 @@ namespace NandosoWebsite.Models
                 var comments = new List<Comments>
             {
                 new Comments {
-                    Name = "Carson Alexander",
-                    Email = "Carson@hotmail.com",
-                    Feedback = "Love their chicken",
-                    CommentDate = DateTime.Parse("2010-09-01")
-                },
-                new Comments {
-                    Name = "Meredith Alonso",
-                    Email = "Meredith@hotmail.com",
-                    Feedback = "Bad customer service",
-                    CommentDate = DateTime.Parse("2012-09-01")
-                },
-                new Comments {
                     Name = "Klevin Laughs",
                     Email = "Klevin@hotmail.com",
                     Feedback = "I almost love this place more than I love my girlfriend.",
                     CommentDate = DateTime.Parse("2015-09-01")
                 },
                };
+
                 comments.ForEach(s => context.Comments.AddOrUpdate(p => p.Feedback, s));
                 context.SaveChanges();
             }

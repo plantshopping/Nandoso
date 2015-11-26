@@ -1,52 +1,71 @@
 ﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
 <head>
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/facebooklogin.js"></script>
+
     <link href="StyleSheet.css" rel="stylesheet" />
     <link rel="icon" type="image/png" href="favicon.png" sizes="16x16" />
     <title>Specials - Nandoso</title>
     <meta charset="utf-8" />
+
 </head>
 <body>
 
-    <div id="header">
-        <p>
+    <div class="content">
+        <div class="top_block header">
+
+            <br />
+            <br />
             <a href="/">
-                <img alt="Nandoso Logo" class="imageContainer" src="NandosoLogo2.png" /></a>
-        </p>
-    </div>
+                <img alt="Nandoso Logo" src="NandosoLogo2.png" /></a>
 
-    <div id="navmenu">
-        <ul>
-            <li><a href="/specials.html">
-                <img src="SpecialsLogo2100.png" /></a></li>
-            <li><a href="/feedback.html">
-                <img src="FeedbackLogo100.png" /></a></li>
-        </ul>
-    </div>
-
-    <section>
-        <div>
-            <h1>Specials</h1>
+            <div class="content">
+            </div>
         </div>
-        <div class="auto-style2">
+
+        <div class="top_block navigation">
+            <div class="content">
+                <a href="/specials.html">
+                    <img src="SpecialsLogo2100.png" /></a>
+                <a href="/feedback.html">
+                    <img src="FeedbackLogo100.png" /></a>
+            </div>
+        </div>
+
+        <div class="top_block title">
+            <div class="content">
+                <h1>Specials</h1>
+            </div>
+        </div>
+
+        <div id="fblogin">
+            <br />
+            <br />
             <div id="status"></div>
             <br />
+            <fb:login-button scope="public_profile,email" data-size="large" onlogin="checkLoginState();"></fb:login-button>
             <br />
-            <!--<fb:login-button scope="public_profile,email" onlogin="checkLoginState();"></fb:login-button>-->
-
-
-            <fb:login-button scope="public_profile,email" onlogin="checkLoginState();"></fb:login-button>
-
-
+            <br />
         </div>
 
-    </section>
+        <div id="promo" style="display: none">
+            <br />
+            <br />
+            <img src="SampleAd.png" />
+            <br />
+            <br />
+        </div>
 
-    <br />
-    <br />
+        <br />
+        <br />
 
-    <div class="footer">
-        <h2>© 2015 Nandoso Restuarants inc.  All rights reserved.</h2>
+        <footer class="modal-footer" style="position: absolute; bottom: 0; width: 100%; height: 20px">
+            <div class="content">
+                <h2>© 2015 Nandoso Restuarants inc.  All rights reserved.</h2>
+            </div>
+        </footer>
+
     </div>
 
 </body>

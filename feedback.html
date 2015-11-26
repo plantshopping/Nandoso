@@ -18,100 +18,115 @@
 </head>
 <body>
 
-    <div id="header">
 
-        <p>
+    <div class="content">
+        <div class="top_block header">
+
+            <br />
+            <br />
             <a href="/">
-                <img alt="Nandoso Logo" class="imageContainer" src="NandosoLogo2.png" /></a>
-        </p>
-    </div>
+                <img alt="Nandoso Logo" src="NandosoLogo2.png" /></a>
 
-    <div id="navmenu">
-        <ul>
-            <li><a href="/specials.html">
-                <img alt="Specials" src="SpecialsLogo2100.png" /></a></li>
-            <li><a href="/feedback.html">
-                <img alt="Feedback" src="FeedbackLogo100.png" /></a></li>
-        </ul>
-    </div>
-
-
-    <div>
-        <h3>Feedback</h3>
-    </div>
-
-
-    <!--Display current comments-->
-    <div class="table-responsive">
-        <div class="col-md-2"></div>
-        <div class="col-md-8">
-
-            <!-- just makes it a bit nicer on mobile devices -->
-            <table class="table table-striped spaced-table">
-                <!-- apply some boostrap classes to our table -->
-                <thead>
-                    <!-- this is the header -->
-                    <tr>
-                        <th class="text-center">Name</th>
-                        <th class="text-center">Comment</th>
-                        <th class="text-center">Date</th>
-
-                    </tr>
-                </thead>
-                <tbody id="commentsList">
-                    <!-- all your td/data cells go here! -->
-                </tbody>
-            </table>
+            <div class="content">
+            </div>
         </div>
-        <div class="col-md-2"></div>
+
+        <div class="top_block navigation">
+            <div class="content">
+                <a href="/specials.html">
+                    <img src="SpecialsLogo2100.png" /></a>
+                <a href="/feedback.html">
+                    <img src="FeedbackLogo100.png" /></a>
+            </div>
+        </div>
+
+        <div class="top_block title">
+            <div class="content">
+                <h1>See what our customers have to say about us!</h1>
+                <p>&nbsp;</p>
+                <h1></h1>
+            </div>
+        </div>
+
+        <!--Display current comments-->
+        <div class="table-responsive">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+
+                <br />
+
+                <!-- just makes it a bit nicer on mobile devices -->
+                <table class="table table-striped spaced-table">
+
+                    <!-- apply some boostrap classes to our table -->
+                    <thead>
+                        <!-- this is the header -->
+                        <tr>
+                            <th class="text-center">Name</th>
+                            <th class="text-center">Comment</th>
+                            <th class="text-center">Date</th>
+
+                        </tr>
+                    </thead>
+                    <tbody id="commentsList">
+                        <!-- all your td/data cells go here! -->
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+
+        <!--Section that allows users to post comments-->
+        <div id="comments" class="col-md-12">
+            <div class="col-md-4"></div>
+            <form class="col-md-4">
+
+                <hr>
+
+                <p class="text-center">
+                    <b>We'd love to hear from you!</b><br>
+                    Enter your feedback for Nandoso Restuarants here:
+                </p>
+
+
+                <div class="form-group">
+                    <label for="name">Name*:</label>
+                    <input class="form-control" type="text" id="name" placeholder="Enter your name here" required />
+                </div>
+
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input class="form-control" type="text" id="email" placeholder="YourEmail@example.com" required />
+                </div>
+
+
+                <div class="form-group">
+                    <label for="message">Comment*:</label>
+                    <textarea class="form-control" rows="4" style="resize: none" id="comment" placeholder="Leave your feedback here" required></textarea>
+                </div>
+
+                <p>*Required fields</p>
+
+                <div style="text-align: center">
+                    <button class="btn btn-default" type="submit" style="width: 90px; height: 35px" onclick="postComment()">Post</button>
+                </div>
+
+                <br />
+                <br />
+            </form>
+            <div class="col-md-4"></div>
+        </div>
+
+
+        <footer class="modal-footer col-md-12">
+            <div class="content">
+                <h2>© 2015 Nandoso Restuarants inc.  All rights reserved.</h2>
+            </div>
+        </footer>
+
     </div>
 
-
-    <!--Section that allows users to post comments-->
-    <div id="comments">
-        <div class="col-md-4"></div>
-        <form class="col-md-4">
-
-            <p class="text-center">
-                We'd love to hear from you!<br>
-                Enter your feedback for Nandoso Restuarants here:
-            </p>
-
-
-            <div class="form-group">
-                <label for="name">Name*:</label>
-                <input class="form-control" type="text" id="name" placeholder="Enter your name here" />
-            </div>
-
-
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <input class="form-control" type="text" id="email" placeholder="YourEmail@example.com" />
-            </div>
-
-
-            <div class="form-group">
-                <label for="message">Comment*:</label>
-                <textarea class="form-control" rows="4" style="resize: none" id="comment" placeholder="Leave your feedback here"></textarea>
-            </div>
-
-            <p>*Required fields</p>
-
-            <div style="text-align: center">
-                <button class="btn btn-default" type="submit" style="width: 90px; height: 35px" onclick="postComment()">Post</button>
-            </div>
-
-
-        </form>
-        <div class="cold-md-4"></div>
-    </div>
-
-    <br />
-    <br />
-
-    <div class="footer">
-        <h2>© 2015 Nandoso Restuarants inc.  All rights reserved.</h2>
-    </div>
 
 </body>
 </html>

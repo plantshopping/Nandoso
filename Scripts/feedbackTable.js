@@ -10,6 +10,12 @@ function loadComments() {
 function setupCommentsTable(comments) {
 
     var commentsTable = document.getElementById("commentsList");
+    var monthNames = [
+    "January", "February", "March",
+    "April", "May", "June", "July",
+    "August", "September", "October",
+    "November", "December"
+    ];
 
     for (i = 0; i < comments.length; i++) {
 
@@ -26,7 +32,13 @@ function setupCommentsTable(comments) {
         row.appendChild(feedbackcol);
 
         var commentdatecol = document.createElement('td');
-        commentdatecol.innerHTML = comments[i].CommentDate;
+        // Formart our date nicely
+        var current = new Date(comments[i].CommentDate);
+        var day = current.getDate();
+        var monthIndex = current.getMonth();
+        var year = current.getFullYear();
+        commentdatecol.innerHTML = day + ' ' + monthNames[monthIndex] + ' ' + year;
+        //commentdatecol.innerHTML = comments[i].CommentDate;
         row.appendChild(commentdatecol);
 
         // Append the row to the end of the table

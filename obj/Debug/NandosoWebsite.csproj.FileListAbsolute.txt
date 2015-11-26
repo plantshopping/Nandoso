@@ -43,3 +43,4 @@ D:\Users\Amy\Visual Studio 2015\Projects\NandosoWebsite\NandosoWebsite\bin\SqlSe
 D:\Users\Amy\Visual Studio 2015\Projects\NandosoWebsite\NandosoWebsite\bin\SqlServerTypes\x86\msvcr100.dll
 D:\Users\Amy\Visual Studio 2015\Projects\NandosoWebsite\NandosoWebsite\bin\SqlServerTypes\x86\SqlServerSpatial110.dll
 D:\Users\Amy\Visual Studio 2015\Projects\NandosoWebsite\NandosoWebsite\bin\Microsoft.SqlServer.Types.dll
+D:\Users\Amy\Visual Studio 2015\Projects\NandosoWebsite\NandosoWebsite\obj\Debug\NandosoWebsite.csprojResolveAssemblyReference.cache

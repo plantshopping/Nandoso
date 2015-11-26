@@ -1,45 +1,109 @@
-﻿
-/**
-    Center the logo
-*/
-.imageContainer {
-    position: absolute;
-    width: 745px; /*the image width*/
-    height: 330px; /*the image height*/
-    left: 50%;
-    top: 30%;
-    margin-left: -372px; /*half the image width*/
-    margin-top: -165px; /*half the image height*/
-}
-
-
-#navmenu ul {
-    list-style-type: none; /*get rid of bullet points for the navigation menu*/
-    margin-left: 30%; /*position it to be below the header*/
-    margin-top: 15%;
-    padding: 10%;
-    text-align: center;
-}
-
-#navmenu li {
-    float: left;
-    padding: 5px 20px 5px 20px;
-}
-
-
-h1 {
-    font-size: 32px;
+﻿h1 {
+    font-size: 25px;
     line-height: 44px;
     font-family: 'Bodoni MT';
     font-style: italic;
     font-weight: bolder;
     text-align: center;
     font-variant: normal;
+    color: black;
 }
 
 h2 {
     font-size: 13px;
     text-align: center;
+    color: black;
     font-weight: normal;
     font-family: 'Times New Roman';
+}
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%; 
+}
+
+.content {
+	min-height: 100%;
+	position: relative;
+	z-index: 0; 
+    text-align: center;
+
+}
+
+.background {
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	bottom: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.top_block {
+	width: 100%;
+	display: block; 
+    height:65px;
+}
+
+.bottom_block {
+	position: absolute;
+	width: 100%;
+	display: block;
+	bottom: 0; 
+    height: 30px;
+}
+
+.left_block {
+	display: block;
+	float: left; 
+}
+
+.right_block {
+	display: block;
+	float: right; 
+}
+
+.center_block {
+	display: block;
+	width: auto; 
+}
+
+.header {
+    text-align: center;
+	width: 100%;
+	height: 375px;
+}
+
+.navigation {
+	width: 100%;
+	height: 120px;
+}
+
+.title {
+	width: 100%;
+	height: 50px;
+}
+
+.footer {
+	width: 100%;
+	height: 30px;
+}
+
+
+img {
+    margin: 0px 20px;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    width: 300px;
 }

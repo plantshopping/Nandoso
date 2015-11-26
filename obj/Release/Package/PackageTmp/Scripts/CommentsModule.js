@@ -6,7 +6,7 @@
             $.ajax({
                 type: "GET",
                 dataType: "json",
-                url: "https://nandosorestuarants.azurewebsites.net/api/Comments",
+                url: "https://NandosoRestuarants.azurewebsites.net/api/Comments",
                 success: function (data) {
                     callback(data);
                 }
@@ -24,17 +24,16 @@ function postComment() {
     var comment = document.getElementById("comment");
     var date = new Date();
 
-
     $.ajax({
         type: "POST",
         dataType: "json",
-        data: {
+        data:{
             Name: name.value,
             Email: email.value,
             Feedback: comment.value,
             CommentDate: date.toLocaleString()
         },
-        url: "https://nandosorestuarants.azurewebsites.net/api/Comments",
+        url: "https://NandosoRestuarants.azurewebsites.net/api/Comments",
         error: function () {
             console.log("POST FAILED");
         }
