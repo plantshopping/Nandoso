@@ -58,7 +58,7 @@ function setupCommentsTable(comments) {
         postReplyDiv.setAttribute("style", "display: none");
         // Input for the reply
         var inputReply = document.createElement("textarea");
-        inputReply.setAttribute("id", "inputReply");
+        inputReply.setAttribute("id", "inputReply" + comments[i].ID);
         inputReply.setAttribute("class", "form-control");
         inputReply.setAttribute("rows", "2");
         inputReply.setAttribute("cols", "10");

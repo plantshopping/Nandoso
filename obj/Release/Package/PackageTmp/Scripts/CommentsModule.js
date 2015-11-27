@@ -41,7 +41,7 @@
         // Post our replies to the database
         postReply: function (someid) {
             var id = someid.substring(3);
-            var inputReply = document.getElementById("inputReply");
+            var inputReply = document.getElementById("inputReply" + id);
 
             // Get existing data
             $.ajax({
@@ -64,6 +64,9 @@
                         url: "https://NandosoRestuarants.azurewebsites.net/api/Comments/" + id,
                         error: function () {
                             console.log("POST FAILED");
+                        },
+                        success: function () {
+                            window.location.reload();
                         }
                     });
                 }
