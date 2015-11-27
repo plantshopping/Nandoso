@@ -170,11 +170,12 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\sweetalert.min.js" />
     <Content Include="specials.html" />
     <Content Include="SpecialsLogo2100.png" />
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="StyleSheet.css" />
-    <Content Include="TEST.html" />
+    <Content Include="sweetalert.css" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -189,6 +190,7 @@
     </Compile>
     <Compile Include="Models\Comments.cs" />
     <Compile Include="Models\NandosoWebsiteContext.cs" />
+    <Compile Include="Models\Admin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

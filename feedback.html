@@ -7,10 +7,12 @@
     <script src="Scripts/jquery-1.9.1.min.js"></script>
     <script src="Scripts/jquery-1.9.1.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/sweetalert.min.js"></script>
 
     <script src="Scripts/CommentsModule.js"></script>
     <script src="Scripts/FeedbackTable.js"></script>
 
+    <link href="sweetalert.css" rel="stylesheet" />
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="StyleSheet.css" rel="stylesheet" />
 
@@ -42,38 +44,10 @@
 
         <div class="top_block title">
             <div class="content">
-                <h1>See what our customers have to say about us!</h1>
+                <h1>Leave your feedback for Nandoso Restuarants here!</h1>
                 <p>&nbsp;</p>
                 <h1></h1>
             </div>
-        </div>
-
-        <!--Display current comments-->
-        <div class="table-responsive">
-            <div class="col-md-2"></div>
-            <div class="col-md-8">
-
-                <br />
-
-                <!-- just makes it a bit nicer on mobile devices -->
-                <table class="table table-striped spaced-table">
-
-                    <!-- apply some boostrap classes to our table -->
-                    <thead>
-                        <!-- this is the header -->
-                        <tr>
-                            <th class="text-center">Name</th>
-                            <th class="text-center">Comment</th>
-                            <th class="text-center">Date</th>
-
-                        </tr>
-                    </thead>
-                    <tbody id="commentsList">
-                        <!-- all your td/data cells go here! -->
-                    </tbody>
-                </table>
-            </div>
-            <div class="col-md-2"></div>
         </div>
 
         <!--Section that allows users to post comments-->
@@ -96,7 +70,7 @@
 
 
                 <div class="form-group">
-                    <label for="email">Email:</label>
+                    <label for="email">Email*:</label>
                     <input class="form-control" type="text" id="email" placeholder="YourEmail@example.com" required />
                 </div>
 
@@ -109,13 +83,31 @@
                 <p>*Required fields</p>
 
                 <div style="text-align: center">
-                    <button class="btn btn-default" type="submit" style="width: 90px; height: 35px" onclick="postComment()">Post</button>
+                    <button class="btn btn-default" type="submit" style="width: 90px; height: 35px" onclick="CommentsModule.postComment()">Post</button>
                 </div>
 
                 <br />
-                <br />
             </form>
             <div class="col-md-4"></div>
+        </div>
+
+        <hr>
+        <div class="top_block title">
+            <div class="content">
+                <h1>See what other customers have to say about us!</h1>
+                <p>&nbsp;</p>
+                <h1></h1>
+            </div>
+        </div>
+
+
+        <!--Display current comments-->
+        <div>
+            <div class="col-md-2"></div>
+            <div class="col-md-8" id="feedbackDiv">
+            </div>
+            <div class="col-md-2"></div>
+
         </div>
 
 

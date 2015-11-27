@@ -108,3 +108,14 @@ hr {
     border-width: 1px;
     width: 300px;
 }
+
+.transparent-button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    font-size: 60%;
+    width: 100px;
+}

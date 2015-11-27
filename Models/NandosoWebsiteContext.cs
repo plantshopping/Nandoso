@@ -7,7 +7,7 @@ using System.Data.Entity.Migrations;
 
 namespace NandosoWebsite.Models
 {
-   [DbConfigurationType(typeof(MySql.Data.Entity.MySqlEFConfiguration))]
+    [DbConfigurationType(typeof(MySql.Data.Entity.MySqlEFConfiguration))]
     public class NandosoWebsiteContext : DbContext
     {
         // You can add custom code to this file. Changes will not be overwritten.
@@ -29,11 +29,11 @@ namespace NandosoWebsite.Models
                 var comments = new List<Comments>
             {
                 new Comments {
-                    Name = "Klevin Laughs",
-                    Email = "Klevin@hotmail.com",
-                    Feedback = "I almost love this place more than I love my girlfriend.",
-                    CommentDate = DateTime.Parse("2015-09-01")
-                },
+                    Name = "Klevin",
+                    Email = "klau@somewhere.com",
+                    Feedback = "I almost love this place more than my gf",
+                    CommentDate = new DateTime()
+                }
                };
 
                 comments.ForEach(s => context.Comments.AddOrUpdate(p => p.Feedback, s));
@@ -48,6 +48,5 @@ namespace NandosoWebsite.Models
         }
 
         public System.Data.Entity.DbSet<NandosoWebsite.Models.Comments> Comments { get; set; }
-
     }
 }

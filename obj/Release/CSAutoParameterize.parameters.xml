@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
-  <parameter name="NandosoWebsiteContext-Web.config Connection String" description="NandosoWebsiteContext Connection String used in web.config by the application to access the database." defaultValue="Database=NandosoComments;Data Source=au-cdbr-azure-southeast-a.cloudapp.net;User Id=b32a386aaef039;Password=caf93194" tags="SqlConnectionString">
+  <parameter name="NandosoWebsiteContext-Web.config Connection String" description="NandosoWebsiteContext Connection String used in web.config by the application to access the database." defaultValue="Database=acsm_164627976a2bd5f;Data Source=br-cdbr-azure-south-a.cloudapp.net;User Id=be429facd4544c;Password=f42820bf" tags="SqlConnectionString">
     <parameterEntry kind="XmlFile" scope="D:\\Users\\Amy\\Visual\ Studio\ 2015\\Projects\\NandosoWebsite\\NandosoWebsite\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='NandosoWebsiteContext']/@connectionString" />
   </parameter>
 </parameters>

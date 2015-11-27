@@ -7,7 +7,6 @@ namespace NandosoWebsite.Models
 {
     public class Comments
     {
-        //[DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int ID { get; set; }
         [Required]
         public string Name { get; set; }
@@ -16,7 +15,6 @@ namespace NandosoWebsite.Models
         [Required]
         public string Feedback { get; set; }
         public DateTime CommentDate { get; set; }
-
+        public string ReplyComment { get; set; }
     }
-
 }

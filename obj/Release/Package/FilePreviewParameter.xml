@@ -4,7 +4,7 @@
     <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\Users\\Amy\\Visual\ Studio\ 2015\\Projects\\NandosoWebsite\\NandosoWebsite\\obj\\Release\\Package\\PackageTmp$" />
     <parameterEntry kind="ProviderPath" scope="setAcl" match="^D:\\Users\\Amy\\Visual\ Studio\ 2015\\Projects\\NandosoWebsite\\NandosoWebsite\\obj\\Release\\Package\\PackageTmp$" />
   </parameter>
-  <parameter name="NandosoWebsiteContext-Web.config Connection String" description="" value="Database=NandosoComments;Data Source=au-cdbr-azure-southeast-a.cloudapp.net;User Id=b32a386aaef039;Password=caf93194" tags="">
+  <parameter name="NandosoWebsiteContext-Web.config Connection String" description="" value="Database=acsm_164627976a2bd5f;Data Source=br-cdbr-azure-south-a.cloudapp.net;User Id=be429facd4544c;Password=f42820bf" tags="">
     <parameterEntry kind="XmlFile" scope="D:\\Users\\Amy\\Visual\ Studio\ 2015\\Projects\\NandosoWebsite\\NandosoWebsite\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='NandosoWebsiteContext']/@connectionString" />
   </parameter>
 </parameters>
